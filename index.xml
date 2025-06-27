@@ -225,11 +225,6 @@
 &lt;p>Added support for a graceful shutdown feature to address upstream errors caused by service upgrades or updates.&lt;/p>
 &lt;p>For usage: &lt;a href="https://www.cloudwego.io/docs/kitex/tutorials/basic-feature/protocol/streaming/grpc/graceful_shutdown/">gRPC Streaming Graceful Shutdown&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>&lt;strong>JSON Generic Call Supports gRPC Streaming&lt;/strong>&lt;/p>
-&lt;p>JSON generic calls now support gRPC Streaming interfaces (client-side only). This is the official release after trial in v0.10.0.&lt;/p>
-&lt;p>For usage: &lt;a href="https://www.cloudwego.io/docs/kitex/tutorials/advanced-feature/generic-call/generic_streaming/">User Guide to Generic Call for Streaming&lt;/a>&lt;/p>
-&lt;/li>
 &lt;/ol>
 &lt;h3 id="experience-optimization">Experience Optimization&lt;/h3>
 &lt;ol>
@@ -326,7 +321,6 @@ If you think that it has an impact on performance, you can fork the old version 
 &lt;li>&lt;strong>Frugal ARM Optimization&lt;/strong>: Frugal v0.2.0 now supports a new implement by reflection&lt;/li>
 &lt;li>&lt;strong>Kitex Tool Improvement&lt;/strong>: Kitex Tool provide a new param &lt;code>-rapid&lt;/code> to integrates Thriftgo and there&amp;rsquo;s a slightly improved speed.&lt;/li>
 &lt;li>&lt;strong>Generating Multiple Handlers for Multiple Services&lt;/strong>：Since this version, Kitex tool provide each service with independent handler file and register them into server，for more details: &lt;a href="https://www.cloudwego.io/docs/kitex/tutorials/advanced-feature/multi_service/multi_handler/">Generating Multiple Handlers for Multiple Services&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Generic Streaming for JSON [on trial]&lt;/strong>：JSON generic streaming has now support streaming (client only)，currently we&amp;rsquo;re doing some optimization, you can have a try by following this doc: &lt;a href="https://www.cloudwego.io/docs/kitex/tutorials/advanced-feature/generic-call/generic_streaming/">Generic Streaming&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;h3 id="others">Others&lt;/h3>
 &lt;ol>
